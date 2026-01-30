@@ -1,0 +1,10 @@
+# Root ignores
+.env
+
+# Backend
+backend/target/
+backend/.env
+
+# OS
+.DS_Store
+
