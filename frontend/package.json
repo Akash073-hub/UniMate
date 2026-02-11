@@ -11,9 +11,13 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/blur": "^4.4.1",
     "@react-native/new-app-screen": "0.83.1",
+    "async-storage": "^0.1.0",
     "react": "^19.2.4",
     "react-native": "^0.83.1",
+    "react-native-linear-gradient": "^2.8.3",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {
