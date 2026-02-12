@@ -27,6 +27,7 @@ const API_BASE_URL = 'http://10.0.2.2:8080/api/auth'; // Change this to your act
 
 interface LoginScreenProps {
   navigation?: any; // Add navigation prop if using React Navigation
+  onLoginScreen?: (token: string, email: string) => void;
 }
 
 interface LoginResponse {
@@ -76,7 +77,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
 
       const data: LoginResponse = await response.json();
 
-      if (data.success) {
+      if (data.success === true) {
         if (isLoginMode) {
           // Save token to AsyncStorage
           if (data.token) {
