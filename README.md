@@ -139,6 +139,6 @@ This project is developed and maintained by student developers who understand th
 For questions, suggestions, or feedback:
 
 - Open an issue on GitHub
-- Email: [Your contact email]
+- Email: akashsinghbihstbca24@rvu.edu.in
 
 **UniMate** - Connecting students, one campus at a time.
